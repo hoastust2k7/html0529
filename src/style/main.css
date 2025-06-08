@@ -1,11 +1,55 @@
 body {
+    background-color: gray;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-nav ul {
+.navigator-bar .navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.navigator-bar .navigator .nav-home  {
     display: flex;
 }
 
-nav ul li a {
+.navigator-bar .navigator .nav-home .nav-home-link a button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navigator-bar .navigator .nav-home .nav-home-link a button img {
+    width: 64px;
+    image-rendering: pixelated;
+}
+
+.navigator-bar .navigator .nav-home .nav-home-link a button p {
+    color: white;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.navigator-bar .navigator .nav-home .nav-home-spacer {
+    width: 4px;
+    height: 56px;
+    align-self: center;
+    background-color: red;
+}
+
+.navigator-bar .navigator .nav-content ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navigator-bar .navigator .nav-content ul li a {
     text-decoration: none;
 }
