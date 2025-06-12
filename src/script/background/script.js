@@ -1,4 +1,4 @@
-const container = document.getElementById('background');
+const container = document.getElementById('web-background');
 
 function createLine() {
     const line = document.createElement('div');
