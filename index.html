@@ -5,36 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoa相樺</title>
     <link rel="stylesheet" href="./src/style/main.css">
+    <link rel="stylesheet" href="./src/style/backgound/style.css">
+    <script src="./src/script/background/script.js" defer></script>
     <link class="favicon" rel="icon" href="./src/assets/favicon.png" type="image/png">
 </head>
 <body>
-    <header class="navigator-bar">
-        <div class="navigator">
+    <div id="background"></div>
+    <div class="navigator">
+        <div class="nav">
             <div class="nav-home">
-                <div class="nav-home-link">
-                    <a href="./">
-                        <button>
-                            <img src="./src/assets/favicon.png" alt="Logo">
-                            <p>Hoa相樺</p>
-                        </button>
-                    </a>
-                </div>
-                <div class="nav-home-spacer"></div>
+                <a href="./">
+                    <button>
+                        <img src="./src/assets/favicon.png" alt="Logo">
+                        <p>Hoa相樺</p>
+                    </button>
+                </a>
+            </div>
+            <div class="nav-home-line">
             </div>
             <div class="nav-content">
                 <ul>
-                    <li><a href="#1">1</a></li>
-                    <li><a href="#2">2</a></li>
-                    <li><a href="#3">3</a></li>
-                    <li><a href="#4">4</a></li>
-                    <li><a href="#5">5</a></li>
+                    <li><a href="#1"><button><p>text1</p></button></a></li>
+                    <li><a href="#2"><button><p>text2</p></button></a></li>
+                    <li><a href="#3"><button><p>text3</p></button></a></li>
+                    <li><a href="#4"><button><p>text4</p></button></a></li>
+                    <li><a href="#5"><button><p>text5</p></button></a></li>
                 </ul>
             </div>
         </div>
-    </header>
-    
-    <div>
-        <h1>text</h1>
+        <div class="nav-end"></div>
+    </div>
+    <div class="main">
+        <section id="1">
+            <h1>text1</h1>
+            <p>te</p>
+        </section>
+        <section id="2">
+            <h1>text2</h1>
+        </section>
+        <section id="3">
+            <h1>text3</h1>
+        </section>
+        <section id="4">
+            <h1>text4</h1>
+        </section>
+        <section id="5">
+            <h1>text5</h1>
+        </section>
+    </div>
+    <div class="footer">
+        <p>© 2025 Hoa相樺</p>
     </div>
 </body>
 </html>
