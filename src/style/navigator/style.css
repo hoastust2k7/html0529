@@ -56,11 +56,11 @@
 }
 
 .navigator .nav .nav-menu .nav-menu-icon-active::before {
-	transform: rotate(-45deg) translateY(1px);
+	transform: rotate(-45deg) translateY(0.5px);
 }
 
 .navigator .nav .nav-menu .nav-menu-icon-active::after {
-	transform: rotate(45deg) translateY(-1px);
+	transform: rotate(45deg) translateY(-1.5px);
 }
 
 .navigator .nav .nav-menu button {
