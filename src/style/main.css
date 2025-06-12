@@ -1,27 +1,35 @@
 body {
-    margin-top: 60px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 16px;
+    margin: 0;
+    padding: 0;
     background-color: black;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .main {
-    margin-top: 76px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
 }
 
-.main h1 {
-    color: white;
-    padding-top: 76px;
-    padding-bottom: 16px;
-    margin: auto;
+.main .home-page {
+    padding: 16px;
 }
 
-.main p {
+.main .home-page h1 {
+    font-size: 36px;
+    text-align: center;
     color: white;
-    margin: 0;
+}
+
+.main .home-page p {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.main .home-page p a {
+    color: #4c6fa7;
 }
