@@ -29,6 +29,7 @@
 	height: 2px;
 	background-color: white;
 	transition: 0.3s;
+    margin-left: 16px;
 }
 
 .navigator .nav .nav-menu .nav-menu-icon::before {
@@ -69,9 +70,7 @@
 	cursor: pointer;
 	padding: 0;
 	margin: 0;
-	margin-right: 10px;
-	margin-left: -5px;
-	width: 42px;
+	width: 24px;
 	height: 42px;
 
 	justify-content: center;
