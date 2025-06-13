@@ -27,7 +27,7 @@ body {
 
 .main .home-page .home-page-header {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: flex-end;
     justify-content: center;
     gap: 4px;
