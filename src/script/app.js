@@ -30,8 +30,3 @@ function update() {
 
 window.addEventListener("resize", update)
 update()
-
-
-const navHome = document.querySelector('.nav-home');
-const navHomeWidth = navHome.offsetWidth;
-console.log(navHomeWidth);
